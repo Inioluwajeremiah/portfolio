@@ -6,11 +6,11 @@ import Home from "./pages/Home.tsx";
 import "./index.css";
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/portfolio",
         index: true,
         element: <Home />,
       },
